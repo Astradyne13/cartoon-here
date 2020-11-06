@@ -1,6 +1,12 @@
+html{
+    background-color: aliceblue;
+}
+
+
 body{
     background-color: blueviolet;
-    margin: 0px;
+    width: 1440px;
+    margin: auto;
 }
 header{
     text-align: center;
@@ -8,25 +14,46 @@ header{
     background-size: cover;
     background-position: center;
     height: 640px;
+    font-family: 'Signika Negative';
+    font-weight: bold;
+    font-size: 20px;
 }
 
 header img{
     border-radius: 220px;
     width: 400px;
-    border: solid 20px floralwhite;
+    border: solid 20px aliceblue;
     margin-top: 40px;
     margin-bottom: 20px;
 }
 
-.headerbutton{
-    display: inline-block;
-    padding: 50px;
-    margin: 0px;
+.headerbuttonleft{
+    /* display: inline-block; */
+    padding: 12px 20px;
+    margin: 0px 35px 0px 0px;
     vertical-align: middle;
+    background: aliceblue
+}
+.headerbuttonright{
+    /* display: inline-block; */
+    padding: 12px 20px;
+    margin: 0px 0px 0px 35px;
+    vertical-align: middle;
+    background: aliceblue
 }
 
+
 header h1{
-    display: inline-block;
+    /* display: inline-block; */
     margin: 0px;
     vertical-align: middle;
+    background: aliceblue;
+    height: 50px;
+    padding: 0px 20px;
+}
+
+header div{
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
 }
