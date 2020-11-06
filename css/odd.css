@@ -4,13 +4,29 @@ body{
 }
 header{
     text-align: center;
-
+    background-image: url(../img/irisation.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 640px;
 }
 
 header img{
     border-radius: 220px;
-    width: 400;
     width: 400px;
     border: solid 20px floralwhite;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
 
+.headerbutton{
+    display: inline-block;
+    padding: 50px;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+header h1{
+    display: inline-block;
+    margin: 0px;
+    vertical-align: middle;
 }
